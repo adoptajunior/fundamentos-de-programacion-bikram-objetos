@@ -86,3 +86,75 @@ Impresora.imprimiendo = objeto = {
     'copias': '',
     'numPaginas': ''
 }
+
+// DECLARACIÓN
+
+// 13
+const Noticia = {
+    titular: 'Titular',
+    cuerpo: 'Cuerpo'
+}
+
+// 14
+const Persona = {
+    nombre: 'Nombre',
+    apellidos: 'Apellidos',
+    edad: ''
+}
+
+// 15
+const Avion = {
+    numPasajeros: '',
+    despegar: function () {
+        return console.log('despegando');
+    },
+    volar: function () {
+        return console.log('llegando al destino');
+    },
+    aterrizar: function () {
+        return console.log('aterrizando');
+    }
+}
+
+// 16
+const Paquete = {
+    contenido: []
+}
+
+// 17
+const Pais = {
+    numHabitantes: '',
+    continente: '',
+    gentilicio: ''
+}
+
+// LECTURA DE PROPIEDADES
+
+// 18
+let codError = O_Error.codigo;
+
+// 19
+let integrantes = Grupo.integrantes;
+
+// 20
+let nivelesTinta = Impresora.tinta;
+
+// 21
+let pixeles = Pantalla.pixeles;
+
+// 22
+let especificaciones = Movil["especificaciones"];
+
+// MODIFICACIÓN DE PROPIEDADES
+
+// 23
+Grupo.numIntegrantes = 5;
+
+// 24
+Pantalla.dimensiones = "1920x1080";
+
+// 25
+Led.encendido = (false != true || false);
+
+// 26
+Movil.temperatura = "20º";
